@@ -17,3 +17,12 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ### Part 2:
 
     cat data2.dat | perl -n -e'@d=$_=~m{([0-9]+)-([0-9]+) ([a-z]): ([a-z]+)}c; $pos=$d[0]-1; $delta=$d[1]-$d[0]-1; $regex="^.{$pos}$d[2].{$delta}([^$d[2]])|^.{$pos}[^$d[2]].{$delta}$d[2]"; print $_ if $d[3]=~m/$regex/;' | wc -l
+
+## [Problem 3](https://adventofcode.com/2020/day/3)
+### Part 1:
+   
+    perl -e'open(IF,"<data3.dat"); $tr=0; $x=0; foreach (<IF>) { $rx="^.{$x}#"; $tr++ if(/$rx/); $x=($x+3)%length();} print "$tr\n";'
+
+### Part 2:
+
+    perl -e'$res=go(3,1)*go(1,1)*go(5,1)*go(7,1)*go(1,2); print "$res\n"; sub go {$h=shift; $v=shift; $x=0; $ln=0; $tr=0; open(IF,"<data3.dat"); foreach (<IF>) { $ln++; next if (($ln-1)%$v); $rx="^.{$x}#"; $tr++ if(/$rx/); $x=($x+$h)%length();} close(IF); return $tr;}'
