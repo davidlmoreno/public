@@ -26,3 +26,12 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ### Part 2:
 
     perl -e'$res=go(3,1)*go(1,1)*go(5,1)*go(7,1)*go(1,2); print "$res\n"; sub go {$h=shift; $v=shift; $x=0; $ln=0; $tr=0; open(IF,"<data3.dat"); foreach (<IF>) { $ln++; next if (($ln-1)%$v); $rx="^.{$x}#"; $tr++ if(/$rx/); $x=($x+$h)%length();} close(IF); return $tr;}'
+
+## [Problem 4]((https://adventofcode.com/2020/day/4)
+### Part 1:
+
+    perl -e'$c=0; $f=`cat data4.dat`; $f=~s/\n/ /g; $f=~s/  /\n/g; foreach(split("\n",$f)) { $c++ if join("",sort(m{(byr|iyr|eyr|hgt|hcl|ecl|pid):.*?}gc))=~m/byrecleyrhclhgtiyrpid/; } print "$c\n";'
+
+### Part 2:
+
+    perl -e'$c=0; $f=`cat data4.dat`; $f=~s/\n/ /g; $f=~s/  /;/g; @l=$f=~m{(.*?);}gc; foreach(@l){ %v=(); @m=split(" "); while($#m>-1){ @val=shift(@m)=~m{([a-z]{3}):(.*)}; $v{$val[0]}=$val[1]; } $c++ if ($v{byr}>1919 and $v{byr}<2003 and $v{iyr}>2009 and $v{iyr}<2021 and $v{eyr}>2019 and $v{eyr}<2031 and hgt($v{hgt}) and $v{hcl}=~/#[0-9a-f]{6}/ and $v{ecl}=~/amb|blu|brn|gry|grn|hzl|oth/ and $v{pid}=~/[0-9]{9}/);} print "$c\n"; sub hgt{@b=shift=~m{([0-9]+)(in|cm)}; return ($b[0]>149 and $b[0]<194) if $b[1] eq "cm"; return ($b[0]>58 and $b[0]<77) if $b[1] eq "in"; return 0;}'
