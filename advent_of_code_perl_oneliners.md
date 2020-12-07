@@ -27,7 +27,7 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 
     perl -e'$res=go(3,1)*go(1,1)*go(5,1)*go(7,1)*go(1,2); print "$res\n"; sub go {$h=shift; $v=shift; $x=0; $ln=0; $tr=0; open(IF,"<data3.dat"); foreach (<IF>) { $ln++; next if (($ln-1)%$v); $rx="^.{$x}#"; $tr++ if(/$rx/); $x=($x+$h)%length();} close(IF); return $tr;}'
 
-## [Problem 4]((https://adventofcode.com/2020/day/4)
+## [Problem 4](https://adventofcode.com/2020/day/4)
 ### Part 1:
 
     perl -e'$c=0; $f=`cat data4.dat`; $f=~s/\n/ /g; $f=~s/  /\n/g; foreach(split("\n",$f)) { $c++ if join("",sort(m{(byr|iyr|eyr|hgt|hcl|ecl|pid):.*?}gc))=~m/byrecleyrhclhgtiyrpid/; } print "$c\n";'
