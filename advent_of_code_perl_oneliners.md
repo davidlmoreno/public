@@ -35,3 +35,12 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ### Part 2:
 
     perl -e'$c=0; $f=`cat data4.dat`; $f=~s/\n/ /g; $f=~s/  /;/g; @l=$f=~m{(.*?);}gc; foreach(@l){ %v=(); @m=split(" "); while($#m>-1){ @val=shift(@m)=~m{([a-z]{3}):(.*)}; $v{$val[0]}=$val[1]; } $c++ if ($v{byr}>1919 and $v{byr}<2003 and $v{iyr}>2009 and $v{iyr}<2021 and $v{eyr}>2019 and $v{eyr}<2031 and hgt($v{hgt}) and $v{hcl}=~/#[0-9a-f]{6}/ and $v{ecl}=~/amb|blu|brn|gry|grn|hzl|oth/ and $v{pid}=~/[0-9]{9}/);} print "$c\n"; sub hgt{@b=shift=~m{([0-9]+)(in|cm)}; return ($b[0]>149 and $b[0]<194) if $b[1] eq "cm"; return ($b[0]>58 and $b[0]<77) if $b[1] eq "in"; return 0;}'
+    
+## [Problem 5](https://adventofcode.com/2020/day/5)
+### Part 1:
+
+    cat data5.dat | perl -ne's/[FL]/0/g; s/[BR]/1/g; ($r,$c)=/(.{7})(.*)/; $row = oct("0b".$r); $col=oct("0b".$c); $r=$row*8+$col; print "$r\n";' | sort -n | tail -n 1
+
+### Part 2:
+
+    perl -e'open(IF,"<data5.dat"); foreach(<IF>){ s/[FL]/0/g; s/[BR]/1/g; ($r,$c)=/(.{7})(.*)/; $row = oct("0b".$r); $col=oct("0b".$c); $r=$row*8+$col; push(@l,$r);} close(IF); @sl=sort { $a <=> $b} @l; $rt=shift(@sl); while ($#sl>-1) { $n=shift(@sl); $d=$n-1; print "$d\n" if ($n-$rt>1); $rt=$n;}'
