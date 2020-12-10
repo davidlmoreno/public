@@ -44,3 +44,13 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ### Part 2:
 
     perl -e'open(IF,"<data5.dat"); foreach(<IF>){ s/[FL]/0/g; s/[BR]/1/g; ($r,$c)=/(.{7})(.*)/; $row = oct("0b".$r); $col=oct("0b".$c); $r=$row*8+$col; push(@l,$r);} close(IF); @sl=sort { $a <=> $b} @l; $rt=shift(@sl); while ($#sl>-1) { $n=shift(@sl); $d=$n-1; print "$d\n" if ($n-$rt>1); $rt=$n;}'
+
+## [Problem 6](https://adventofcode.com/2020/day/6)
+### Part 1:
+
+    perl -e'@m=`cat data6.dat`=~m{((?:[a-z]+\n)+)(?:\n|$)}g; $s=0; foreach(@m){s/\n//g; $l=keys{ map { $_ => 1 } /./g }; $s+=$l;} print "$s\n"; '
+
+### Part 2:
+
+    perl -e'@m=`cat data6.dat`=~m{((?:[a-z]+\n)+)(?:\n|$)}g; $s=0; foreach(@m){$n=@p=(/\n/g); s/\n//g; foreach $k (keys{ map { $_=>1 } /./g }) { $ct=@d=$_=~/$k/g; $s++ if ($ct == $n);}} print "$s\n";'
+
