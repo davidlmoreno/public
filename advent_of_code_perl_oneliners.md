@@ -58,11 +58,11 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ## [Problem 7](https://adventofcode.com/2020/day/7):
 ### Part 1:
 
-    perl -e'$input=`cat <data7.dat`; @s=("shiny gold"); while($#s>-1) { $g=shift(@s); @m=$input=~m{([\w]+ [\w]+) bag[s]* contain(.*)?\n}g; while($#m>-1) { $a=shift(@m); $b=shift(@m); do { push(@s,$a); print "$a\n" } if $b=~/$g/;}}' | sort | uniq | wc -l
+    perl -e'$input=`cat data7.dat`; @s=("shiny gold"); while($#s>-1) { $g=shift(@s); @m=$input=~m{([\w]+ [\w]+) bag[s]* contain(.*)?\n}g; while($#m>-1) { $a=shift(@m); $b=shift(@m); do { push(@s,$a); print "$a\n" } if $b=~/$g/;}}' | sort | uniq | wc -l
 
 ### Part 2:
 
-    perl -e'$in=`cat <data7.dat`; $c=-1; @s=("shiny gold"); while ($#s>-1){ $c++; $g=shift(@s); next if $in=~m/$g bags contain no/; @m=$in=~m{$g bag[s]* contain (.*?)\n}g; @v=split(/, /,$m[0]); map { $_=~m{([\d]+) ([\w]+ [\w]+)}; push(@s,$2) foreach (1..$1);} @v;} print "\n$c\n";'
+    perl -e'$in=`cat data7.dat`; $c=-1; @s=("shiny gold"); while ($#s>-1){ $c++; $g=shift(@s); next if $in=~m/$g bags contain no/; @m=$in=~m{$g bag[s]* contain (.*?)\n}g; @v=split(/, /,$m[0]); map { $_=~m{([\d]+) ([\w]+ [\w]+)}; push(@s,$2) foreach (1..$1);} @v;} print "\n$c\n";'
 
 ## [Problem 8](https://adventofcode.com/2020/day/8):
 ### Part 1:
