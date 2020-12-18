@@ -54,3 +54,17 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 
     perl -e'@m=`cat data6.dat`=~m{((?:[a-z]+\n)+)(?:\n|$)}g; $s=0; foreach(@m){$n=@p=(/\n/g); s/\n//g; foreach $k (keys{ map { $_=>1 } /./g }) { $ct=@d=$_=~/$k/g; $s++ if ($ct == $n);}} print "$s\n";'
 
+
+## [Problem 7](https://adventofcode.com/2020/day/7):
+### Part 1:
+
+    perl -e'$input=`cat <data7.dat`; @s=("shiny gold"); while($#s>-1) { $g=shift(@s); @m=$input=~m{([\w]+ [\w]+) bag[s]* contain(.*)?\n}g; while($#m>-1) { $a=shift(@m); $b=shift(@m); do { push(@s,$a); print "$a\n" } if $b=~/$g/;}}' | sort | uniq | wc -l
+
+### Part 2:
+
+    perl -e'$in=`cat <data7.dat`; $c=-1; @s=("shiny gold"); while ($#s>-1){ $c++; $g=shift(@s); next if $in=~m/$g bags contain no/; @m=$in=~m{$g bag[s]* contain (.*?)\n}g; @v=split(/, /,$m[0]); map { $_=~m{([\d]+) ([\w]+ [\w]+)}; push(@s,$2) foreach (1..$1);} @v;} print "\n$c\n";'
+
+## [Problem 8](https://adventofcode.com/2020/day/8):
+### Part 1:
+
+    perl -e'$in=`cat data8.dat`; @vis=(); $l=1; $acc=0; map {$p{$l} = $_; $l++} split("\n",$in); run($p{1},1); print "$acc\n"; sub run {($op,$val)=shift=~/([\w]+) ([+-][\d]+)/; $w=shift; return if grep { $w eq $_} @vis; push (@vis,$w); do { $acc+=$val if $op eq "acc"; $n=$w+1; run($p{$n},$n)} if $op=~/acc|nop/; do { $g=$w+$val; run($p{$g},$g)} if $op eq "jmp";}'
