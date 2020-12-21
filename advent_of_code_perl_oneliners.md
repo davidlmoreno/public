@@ -68,3 +68,8 @@ This file contains solutions for the [Advent of Code 2020](https://adventofcode.
 ### Part 1:
 
     perl -e'$in=`cat data8.dat`; @vis=(); $l=1; $acc=0; map {$p{$l} = $_; $l++} split("\n",$in); run($p{1},1); print "$acc\n"; sub run {($op,$val)=shift=~/([\w]+) ([+-][\d]+)/; $w=shift; return if grep { $w eq $_} @vis; push (@vis,$w); do { $acc+=$val if $op eq "acc"; $n=$w+1; run($p{$n},$n)} if $op=~/acc|nop/; do { $g=$w+$val; run($p{$g},$g)} if $op eq "jmp";}'
+
+### Part 2:
+
+    perl -e'$in=`cat data8.dat`; $l=1; map {$p{$l} = $_; $l++} split("\n",$in); $p{$l}="end +0"; @s=grep {$p{$_}=~/nop|jmp/} keys %p; foreach $ss (@s){map {$q{$_} = $p{$_};} keys %p; $q{$ss}=~s/nop/jmp/; $q{$ss}=~s/jmp/nop/; $acc=0; @vis=(); run($q{1},1); %q=(); } sub run {($op,$val)=shift=~/([\w]+) ([+-][\d]+)/; $w=shift; return if grep { $w eq $_} @vis; push (@vis,$w); do { $acc+=$val if $op eq "acc"; $n=$w+1; run($q{$n},$n)} if $op=~/acc|nop/; do { $g=$w+$val; run($q{$g},$g)} if $op eq "jmp"; do{print "$acc\n"; exit(0);} if $op=~/end/;}'
+
