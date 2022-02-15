@@ -23,6 +23,9 @@ A list of my (current) values and the principles I would like to work by. Inspir
 - Estimations are counter-productive, they are taken as promises by the client when they can *never* be right
 - Trying to make better estimates is a fool's errand, which will take up time that could be used for doing something actually useful (something that actually brings you closer to an actual outcome)
 - [@allenholub] (https://twitter.com/allenholub): "The presence of a bug is actually the absence of a test"
+- Code Style: program in algorithms ([No RAW loops!](https://www.youtube.com/watch?v=W2tWOdzgXHA))
+- Coding is a **social activity**: pair programming and [mob programming](https://mobprogramming.org/mob-programming-basics/) produce superior software with lower costs.
+- Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
 
 ## Elon Musk 5 step process:
 
