@@ -6,7 +6,7 @@ A list of my (current) values and the principles I would like to work by. Inspir
 - Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness successs.
 - Legacy SW migration: [Patterns of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/)
 - Company maturity for Cloud:
-![Company Maturity for Cloud](cloud_ready_company_table.jpg)
+![Company Maturity for Cloud](images/cloud_ready_company_table.jpg)
 
 ## Teams and Peopleware
 - [Value] *Psychological Safety* is needed for a successful team/company
