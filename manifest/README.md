@@ -1,12 +1,13 @@
-A list of my (current) values and the principles I would like to work by. Inspired by Allen Holub's [Heuristics for Effective Software Development](https://holub.com/heuristics-for-effective-software-development-a-continuously-evolving-list/)
+A list of values, principles I would like to work by, as well as links to my references. Inspired by Allen Holub's [Heuristics for Effective Software Development](https://holub.com/heuristics-for-effective-software-development-a-continuously-evolving-list/)
 
 ## Product Management
 - Escaping the build trap: [video](https://www.youtube.com/watch?v=DmJXpI7OJuY), [book](https://www.goodreads.com/book/show/42611483-escaping-the-build-trap)
 - Outcomes over output: [book](https://www.goodreads.com/book/show/45186993-outcomes-over-output)
 - Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness successs.
+- Shreyas Doshi [Popular Threads on PM](https://twitter.com/shreyas/status/1303150374124048386)
 - Legacy SW migration: [Patterns of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/)
 - Company maturity for Cloud:
-![Company Maturity for Cloud](cloud_ready_company_table.jpg)
+![Company Maturity for Cloud](images/cloud_ready_company_table.jpg)
 
 ## Teams and Peopleware
 - [Value] *Psychological Safety* is needed for a successful team/company
