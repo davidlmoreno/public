@@ -6,7 +6,8 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness successs.
 - Shreyas Doshi [Popular Threads on PM](https://twitter.com/shreyas/status/1303150374124048386)
 - Legacy SW migration: [Patterns of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/)
-- Company maturity for Cloud:
+- Outcome-based roadmaps: [article](https://medium.com/swlh/outcome-based-roadmaps-unleash-the-power-of-a-shared-vision-and-purpose-851401c7aa54), [presentation](https://drive.google.com/file/d/1LXCxfQbGeBlJXUtm-3mtLIR-NWQYgNFh/view?usp=sharing)
+- Company maturity for Cloud (taken from the [Outcome-based roadmaps presentation](https://drive.google.com/file/d/1LXCxfQbGeBlJXUtm-3mtLIR-NWQYgNFh/view?usp=sharing)):
 ![Company Maturity for Cloud](images/cloud_ready_company_table.jpg)
 
 ## Teams and Peopleware
@@ -33,7 +34,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Coding is a **social activity**: pair programming and [mob programming](https://mobprogramming.org/mob-programming-basics/) produce superior software with lower costs.
 - Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
 
-## Elon Musk 5 step process:
+## [Extra] Elon Musk 5 step process:
 
   1. Make your requirements less dumb
     - Question the requirements (specially if they came from a very smart person)
