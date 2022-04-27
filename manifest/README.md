@@ -3,7 +3,8 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 ## Product Management
 - Escaping the build trap: [video](https://www.youtube.com/watch?v=DmJXpI7OJuY), [book](https://www.goodreads.com/book/show/42611483-escaping-the-build-trap)
 - Outcomes over output: [book](https://www.goodreads.com/book/show/45186993-outcomes-over-output)
-- Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness successs.
+- Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness success.
+- Westrum's [typology of organizational cultures](https://www.researchgate.net/profile/Ron-Westrum-2/publication/8150380_A_Typology_of_Organisational_Cultures/links/0046351f7f516cb1a4000000/A-Typology-of-Organisational-Cultures.pdf): aim for a generative culture.
 - Shreyas Doshi [Popular Threads on PM](https://twitter.com/shreyas/status/1303150374124048386)
 - Legacy SW migration: [Patterns of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/)
 - Outcome-based roadmaps: [article](https://medium.com/swlh/outcome-based-roadmaps-unleash-the-power-of-a-shared-vision-and-purpose-851401c7aa54), [presentation](https://drive.google.com/file/d/1LXCxfQbGeBlJXUtm-3mtLIR-NWQYgNFh/view?usp=sharing)
