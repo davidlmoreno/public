@@ -34,6 +34,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Coding is a **social activity**: pair programming and [mob programming](https://mobprogramming.org/mob-programming-basics/) produce superior software with lower costs.
 - Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
 - Why the Waterfall model is flawed [waterfall model probably the most costly mistake in the world](http://valueatwork.se/waterfall-model-probably-the-most-costly-mistake-in-the-world/?lang=en).
+- Mob Programming [resources](https://trello.com/b/1lfMkCOh/software-profession-resources).
 
 ## [Extra] Elon Musk 5 step process:
 
