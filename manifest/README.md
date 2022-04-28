@@ -5,7 +5,15 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Outcomes over output: [book](https://www.goodreads.com/book/show/45186993-outcomes-over-output)
 - Accelerate: [book](https://itrevolution.com/book/accelerate/), DevOps and the culture that it entails produces better results and correlates with bussiness success.
 - Westrum's [typology of organizational cultures](https://www.researchgate.net/profile/Ron-Westrum-2/publication/8150380_A_Typology_of_Organisational_Cultures/links/0046351f7f516cb1a4000000/A-Typology-of-Organisational-Cultures.pdf): aim for a generative culture.
-- Shreyas Doshi [Popular Threads on PM](https://twitter.com/shreyas/status/1303150374124048386)
+- Shreyas Doshi [Popular Threads on PM](https://twitter.com/shreyas/status/1303150374124048386).
+- [Lean Product Management](https://railsware.com/blog/what-makes-product-development-lean/). Seven principles:
+  - Eliminate waste
+  - Build quality into the product
+  - Amplify learning
+  - Defer commitment
+  - Deliver fast
+  - Respect people
+  - Optimize the whole 
 - Legacy SW migration: [Patterns of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/)
 - Outcome-based roadmaps: [article](https://medium.com/swlh/outcome-based-roadmaps-unleash-the-power-of-a-shared-vision-and-purpose-851401c7aa54), [presentation](https://drive.google.com/file/d/1LXCxfQbGeBlJXUtm-3mtLIR-NWQYgNFh/view?usp=sharing)
 - Company maturity for Cloud (taken from the [Outcome-based roadmaps presentation](https://drive.google.com/file/d/1LXCxfQbGeBlJXUtm-3mtLIR-NWQYgNFh/view?usp=sharing)):
@@ -36,6 +44,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
 - Why the Waterfall model is flawed [waterfall model probably the most costly mistake in the world](http://valueatwork.se/waterfall-model-probably-the-most-costly-mistake-in-the-world/?lang=en).
 - Mob Programming [resources](https://trello.com/b/1lfMkCOh/software-profession-resources).
+- Mob Programming: it is about [being more effective by enabling **flow** and reducing **waste**](https://www.youtube.com/watch?v=28S4CVkYhWA).
 
 ## [Extra] Elon Musk 5 step process:
 
