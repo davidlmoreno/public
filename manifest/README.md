@@ -44,7 +44,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
 - Why the Waterfall model is flawed [waterfall model probably the most costly mistake in the world](http://valueatwork.se/waterfall-model-probably-the-most-costly-mistake-in-the-world/?lang=en).
 - Mob Programming [resources](https://trello.com/b/1lfMkCOh/software-profession-resources).
-- Mob Programming: it is about being more effective [video](https://www.youtube.com/watch?v=28S4CVkYhWA).
+- Mob Programming: it is about [being more effective by enabling **flow** and reducing **waste**](https://www.youtube.com/watch?v=28S4CVkYhWA).
 
 ## [Extra] Elon Musk 5 step process:
 
