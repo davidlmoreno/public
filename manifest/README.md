@@ -50,10 +50,14 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 > What we have to do:
 > To thrive in the iterative incremental world, we need to accomplish some difficult things:
 > 
-> We need to evolve the design from simple to more and more capable;
-> We need to test all the software all the time, because the design is changing and that can break things;
-> We need to add capability in tiny tiny slices, because you really can’t do a big feature in a week or two;
-> We need to build the system many times a week, many times a day, to be sure that we can be shippable at the end of every week;
+> - We need to evolve the design from simple to more and more capable;
+>
+> - We need to test all the software all the time, because the design is changing and that can break things;
+>
+> - We need to add capability in tiny tiny slices, because you really can’t do a big feature in a week or two;
+>
+> - We need to build the system many times a week, many times a day, to be sure that we can be shippable at the end of every week;
+>
 > I’m sure I could make the list more detailed, but those items make it hard enough.
 
 
