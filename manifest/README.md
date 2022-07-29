@@ -45,6 +45,17 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Why the Waterfall model is flawed [waterfall model probably the most costly mistake in the world](http://valueatwork.se/waterfall-model-probably-the-most-costly-mistake-in-the-world/?lang=en).
 - Mob Programming [resources](https://trello.com/b/1lfMkCOh/software-profession-resources).
 - Mob Programming: it is about [being more effective by enabling **flow** and reducing **waste**](https://www.youtube.com/watch?v=28S4CVkYhWA).
+- [Gotta be Good (Ron Jeffries)](https://ronjeffries.com/articles/-z022/0222ff/gotta-be-good/):
+
+> What we have to do:
+> To thrive in the iterative incremental world, we need to accomplish some difficult things:
+> 
+> We need to evolve the design from simple to more and more capable;
+> We need to test all the software all the time, because the design is changing and that can break things;
+> We need to add capability in tiny tiny slices, because you really can’t do a big feature in a week or two;
+> We need to build the system many times a week, many times a day, to be sure that we can be shippable at the end of every week;
+> I’m sure I could make the list more detailed, but those items make it hard enough.
+
 
 ## [Extra] Elon Musk 5 step process:
 
@@ -67,3 +78,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
   5. Automate
     - Once the problem is nailed down, find the way to automate it
     - Reduce cycle time by automating and removing unnecessary steps in the workflow
+
+## Examples
+
+- Company values: [GitLab](https://about.gitlab.com/handbook/values/)
