@@ -29,6 +29,10 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 - Blame culture is toxic and prevents progress (see _Psychological safety_). Everyone needs to assume their share of the responsibility when results are not the expected ones.
 - Do not aim to never fail, aim at recovering quickly from failures and LEARN in the process. Understand that nobody wants to fail, specially when they feel part of the team, the project and the strategic objectives. Manage risk, not people.
 - Communication is key: non-violent open communication is one of most important elements of team success.
+- TED Talk on [psycological safety](https://www.youtube.com/watch?v=LhoLuui9gX8&). What to do to create a safe workplace:
+  - *Frame the work as a learning problem*, not an execution problem: make explicit that there is high uncertainty ahead and enormous interdependence.
+  - *Acknowledge your own fallibility*: openly discuss and request help and inputs from everyone.
+  - *Model curiosity*: ask a lot of questions, it creates a necessity for a voice.
 
 ## Software Development
 - The [Agile Manifesto](https://agilemanifesto.org/) is still valid today:
