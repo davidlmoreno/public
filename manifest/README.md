@@ -33,6 +33,8 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
   - *Frame the work as a learning problem*, not an execution problem: make explicit that there is high uncertainty ahead and enormous interdependence.
   - *Acknowledge your own fallibility*: openly discuss and request help and inputs from everyone.
   - *Model curiosity*: ask a lot of questions, it creates a necessity for a voice.
+- Careful with what are your KPIs, not all that can be measured should be measured; and why measuring the wrong thing will lead you into trouble: [Dysfunctional Consequences of Performance Measurements] (https://www.jstor.org/stable/2390989).
+- Speaking of KPIs, the [4 DORA metrics](https://www.engprod.guide/docs/dora-four-key-metrics-accelerate-book) [Accelerate Book](https://www.goodreads.com/book/show/35747076-accelerate) are so far the most useful for assessing the performance of a SW team. But again, only using these measures will not get you where you want to be: all metrics will be gamed unless the _why_ behind them is clear to everyone ([Leading Lean SW Development](https://www.goodreads.com/book/show/6743843-leading-lean-software-development)).
 
 ## Software Development
 - The [Agile Manifesto](https://agilemanifesto.org/) is still valid today:
