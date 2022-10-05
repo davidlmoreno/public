@@ -66,28 +66,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 >
 > I’m sure I could make the list more detailed, but those items make it hard enough.
 
-
-## [Extra] Elon Musk 5 step process:
-
-  1. Make your requirements less dumb
-    - Question the requirements (specially if they came from a very smart person)
-    - Make individuals responsible for keeping a requirement (not departments)
-
-  2. Try very hard to delete the part or the process
-    - If you are not adding things back in 10% of the time, you are not deleting enough
-    - There is a bias for adding parts/processes/steps in a process 'in case we need it'
-
-  3. Simplify or optimize
-    - Convergent thinking: in school/college we are trained to answer the question, not to question the problem itself
-    - You may be optimizing a thing that should not exist in the first place
-
-  4. Accelerate cycle time
-    - You are slow: you can iterate faster
-    - But not until you have gone through the first three steps: digging faster is great unless you are actually digging your own grave. Work faster on what is important.
-
-  5. Automate
-    - Once the problem is nailed down, find the way to automate it
-    - Reduce cycle time by automating and removing unnecessary steps in the workflow
+- 15 minutes (to prod) or bust! [The Sociotechnical Path to High-Performing Teams by Charity Majors] (https://vimeo.com/723450508)
 
 ## Examples
 
