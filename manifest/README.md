@@ -66,7 +66,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 >
 > I’m sure I could make the list more detailed, but those items make it hard enough.
 
-- 15 minutes (to prod) or bust! [The Sociotechnical Path to High-Performing Teams by Charity Majors] (https://vimeo.com/723450508)
+- 15 minutes (to prod) or bust! [The Sociotechnical Path to High-Performing Teams by Charity Majors](https://vimeo.com/723450508)
 
 ## Examples
 
