@@ -35,6 +35,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
   - *Model curiosity*: ask a lot of questions, it creates a necessity for a voice.
 - Careful with what are your KPIs, not all that can be measured should be measured; and why measuring the wrong thing will lead you into trouble: [Dysfunctional Consequences of Performance Measurements](https://www.jstor.org/stable/2390989).
 - Speaking of KPIs, the [4 DORA metrics](https://www.engprod.guide/docs/dora-four-key-metrics-accelerate-book) [Accelerate Book](https://www.goodreads.com/book/show/35747076-accelerate) are so far the most useful for assessing the performance of a SW team. But again, only using these measures will not get you where you want to be: all metrics will be gamed unless the _why_ behind them is clear to everyone ([Leading Lean SW Development](https://www.goodreads.com/book/show/6743843-leading-lean-software-development)).
+- Other metrics that can be used for improving lean teams (published with Javier Garzás): flow optimization based on [cycle/process efficiency](https://www.javiergarzas.com/2020/01/la-eficiencia-del-proceso-agil-un-caso-de-estudio-en-gmv-eusc-centro-de-control-de-satelites-eutelsat.html) (also in [pdf](https://www.javiergarzas.com/wp-content/uploads/2020/01/Eficiencia-del-proceso-Agil-caso-de-estudio-en-GMV-Centro-de-Control-de-Sate%CC%81lites-Eutelsat.pdf)).
 
 ## Software Development
 - The [Agile Manifesto](https://agilemanifesto.org/) is still valid today:
@@ -44,7 +45,7 @@ A (WIP) list of values, principles I would like to work by, as well as links to 
 
 - Estimations are counter-productive, they are taken as promises by the client when they can *never* be right
 - Trying to make better estimates is a fool's errand, which will take up time that could be used for doing something actually useful (something that actually brings you closer to an actual outcome)
-- [allenholub] (https://twitter.com/allenholub): "The presence of a bug is actually the absence of a test"
+- [allenholub](https://twitter.com/allenholub): "The presence of a bug is actually the absence of a test"
 - Code Style: program in algorithms ([No RAW loops!](https://www.youtube.com/watch?v=W2tWOdzgXHA))
 - Coding is a **social activity**: pair programming and [mob programming](https://mobprogramming.org/mob-programming-basics/) produce superior software with lower costs.
 - Remove crust: [refactor and simplify](https://martinfowler.com/articles/is-quality-worth-cost.html) or the monster will eat you (and your profit).
