@@ -6,3 +6,5 @@ Python 3,trial,languages & frameworks,FALSE,"We continue to see teams run into t
 Gitlab,trial,tools,TRUE,"Used in FOPit"
 Node.js,adopt,languages & frameworks,FALSE,"Backend in Node"
 Flask,adopt,languages & frameworks,FALSE,"Backend in Python"
+Test,trial,techniques,FALSE,"Test"
+Test,trial,platforms,FALSE,"Test"
